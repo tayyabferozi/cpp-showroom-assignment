@@ -238,6 +238,8 @@ while(shopBool){
 			cout << "\n\nFirst Name:\n    " << fName << "\nLast Name:\n    " << lName << "\nAddress:\n    " << address << "\nBought Car Name:\n    " << boughtServiceName << "\nPrice:\n    " << boughtServicePrice;
 		}
 		
+		shopAgain = 3;
+		
 		while(shopAgain != 0 && shopAgain !=1){
 		
 			cout << "\n\n\nWould you like to shop again? (Enter 0 for no and 1 for yes):\n";
